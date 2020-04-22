@@ -1,0 +1,38 @@
+product_title:
+    css: 'h1 a[data-hook="product-link"]'
+    type: Text
+reviews:
+    css: 'div.review div.a-section.celwidget'
+    multiple: true
+    type: Text
+    children:
+        title:
+            css: a.review-title
+            type: Text
+        content:
+            css: 'div.a-row.review-data span.review-text'
+            type: Text
+        date:
+            css: span.a-size-base.a-color-secondary
+            type: Text
+        variant:
+            css: 'a.a-size-mini'
+            type: Text
+        images:
+            css: img.review-image-tile
+            multiple: true
+            type: Attribute
+            attribute: src
+        verified:
+            css: 'span[data-hook="avp-badge"]'
+            type: Text
+        author:
+            css: span.a-profile-name
+            type: Text
+        rating:
+            css: 'div.a-row:nth-of-type(2) > a.a-link-normal:nth-of-type(1)'
+            type: Attribute
+            attribute: title
+next_page:
+    css: 'li.a-last a'
+    type: Link
