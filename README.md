@@ -4,6 +4,8 @@ A simple amazon scraper to extract product details and prices from Amazon.com us
 
 Full article at [ScrapeHero Tutorials](https://www.scrapehero.com/how-to-scrape-amazon-product-reviews/)
 
+A completely web browser based commercial version of this scraper is available here - [Amazon Product Review Scraper - ScrapeHero Marketplace](https://www.scrapehero.com/marketplace/amazon-reviews/)
+
 ## Usage
 
 1. Install Requirements `pip3 install -r requirements.txt`
